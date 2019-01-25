@@ -14,6 +14,11 @@
   ],
   "license": "GPLv3",
   "dependencies": {
-    "log4js": "^3.0.6"
+    "log4js": "^3.0.6",
+    "node": "^8.12.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.2.0"
   }
 }
