@@ -1,6 +1,6 @@
 {
   "name": "log4js-appender-ratelimit-filter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Appender for log4js. Filter logs by rate limiting.",
   "main": "./lib/filter.js",
   "repository": {
