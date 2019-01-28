@@ -6,20 +6,27 @@ Rate limiting appender filter for log4js
 
 ```javascript
 {
-    "appenders": [
-    {
-		"type": "log4js-appender-ratelimit-filter",
-		"limits":{
-			"TRACE": 5,
-			"WARN": 10,
-			"ERROR":10
-		},
-		"interval": 2000,
-		"appender":{
-			"type": "console"
-		}
+    "appenders": {
+        "myAppender": {
+            "type": "console"
+        },
+        "rateFilter": {
+            "type": "log4js-appender-ratelimit-filter",
+            "limits": {
+                "TRACE": 5,
+                "WARN": 10,
+                "ERROR":10
+            },
+            "interval": 2000,
+            "appender": "myAppender"
+        }
+    },
+    "categories": {
+        "default": {
+            "appenders": [ "rateFilter" ],
+            "level": "DEBUG"
+        }
     }
-	]
 }
 ```
 
