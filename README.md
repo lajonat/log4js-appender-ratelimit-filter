@@ -1,5 +1,5 @@
 # log4js-appender-ratelimit-filter
-Rate limiting appender filter for log4js
+Rate limiting appender filter for log4js v2+
 
 
 ## Configuration
