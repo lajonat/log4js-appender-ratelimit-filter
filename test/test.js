@@ -41,7 +41,7 @@ const filterTests = function(appender) {
 			appender: appender
 		});
 
-		var logger = log4js.getLogger("app");
+		const logger = log4js.getLogger("app");
 		logger.info('hey');
 		logger.info('hey');
 		logger.info('hey');
@@ -56,7 +56,7 @@ const filterTests = function(appender) {
 			appender: appender
 		});
 
-		var logger = log4js.getLogger("app");
+		const logger = log4js.getLogger("app");
 		logger.error('hey');
 		logger.info('hey');
 		logger.trace('hey');
@@ -72,7 +72,7 @@ const filterTests = function(appender) {
 			appender: appender
 		});
 
-		var logger = log4js.getLogger("app");
+		const logger = log4js.getLogger("app");
 		logger.info('hey');
 		logger.error('hey');
 		logger.trace('hey');
@@ -89,7 +89,7 @@ const filterTests = function(appender) {
 			appender: appender
 		});
 
-		var logger = log4js.getLogger("app");
+		const logger = log4js.getLogger("app");
 		logger.info('hey');
 		logger.info('hey');
 		logger.info('hey');
